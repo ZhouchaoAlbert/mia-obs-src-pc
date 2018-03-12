@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\platform-windows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\update-window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\win-update.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\win-update-helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\deps\libff\libff\ff-util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\obs-app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\api-interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-filters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-interaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-auto-config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-main-outputs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-source-select.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-auto-config-test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-main-scene-collections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-main-transitions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-main-dropfiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-main-profiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-license-agreement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-status-bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-adv-audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-preview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-namedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-log-reply.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-projector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\window-remux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\properties-view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\focus-list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\menu-button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\double-slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\volume-control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\adv-audio-control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\item-widget-helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\visibility-checkbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\locked-checkbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\vertical-scroll-area.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\visibility-item-widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\slider-absoluteset-style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\source-list-widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\qt-display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\crash-report.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\hotkey-edit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\source-label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\remote-text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\audio-encoders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\mia-login-dlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\mia-websocket-client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miabasewindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miabasewindowprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miabasewndtitlebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miabasewndtitlebarprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miahttpcenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miahttpcenterprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miahttprunnable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainlistwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainlistwidgetheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainlistwidgetitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainlistwidgetitemprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainlistwidgetprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\QMyCustLable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainwindow2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\qt-wrappers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\build\UI\qrc_obs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\build\UI\qrc_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\build\UI\obs_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\update-window.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\win-update.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\win-update-helpers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\deps\libff\libff\ff-util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\obs-app.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\platform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-main.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-main.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-stats.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-filters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-settings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-interaction.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-properties.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-auto-config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-main-outputs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-source-select.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-license-agreement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-status-bar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-adv-audio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-basic-preview.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-namedialog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-log-reply.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-projector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\window-remux.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\properties-view.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\properties-view.moc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\display-helpers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\double-slider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\focus-list.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\menu-button.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\mute-checkbox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\volume-control.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\adv-audio-control.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\item-widget-helpers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\visibility-checkbox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\locked-checkbox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\vertical-scroll-area.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\visibility-item-widget.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\slider-absoluteset-style.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\source-list-widget.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\qt-display.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\crash-report.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\hotkey-edit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\source-label.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\remote-text.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\audio-encoders.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\mia-login-dlg.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\mia-websocket-client.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miabasewindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miabasewindowprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miabasewndtitlebar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miabasewndtitlebarprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miahttpcenter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miahttpcenterprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miahttprunnable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainlistwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainlistwidgetheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainlistwidgetitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainlistwidgetitemprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainlistwidgetprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\QMyCustLable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainwindow2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\miasingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\mia-public-defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\qt-wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_NameDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_AutoConfigStartPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_AutoConfigVideoPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_AutoConfigStreamPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_AutoConfigTestPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSLicenseAgreement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSLogReply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSBasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSBasicTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSBasicFilters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSBasicSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSBasicSourceSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSBasicInteraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSUpdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSRemux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\NameDialog.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\AutoConfigStartPage.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\AutoConfigVideoPage.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\AutoConfigStreamPage.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\AutoConfigTestPage.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\OBSLicenseAgreement.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\OBSLogReply.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\OBSBasic.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\OBSBasicTransform.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\OBSBasicFilters.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\OBSBasicSettings.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\OBSBasicSourceSelect.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\OBSBasicInteraction.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\OBSUpdate.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\OBSRemux.ui" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\forms\obs.qrc" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\image.qrc" />
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\UI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\obs.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0433A0B2-89DC-3B67-97CC-B673383DDD08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{58566E96-42EE-327F-AF2A-BED7BDF04E26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

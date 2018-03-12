@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1FBE42EB-5BB7-3EAE-868E-AA103C185426}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/mia-build/mia-obs-src-pc-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake-x64\bin\cmake.exe" -HD:/mia-build/mia-obs-src-pc-main -BD:/mia-build/mia-obs-src-pc-main/build --check-stamp-file D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/mia-build/mia-obs-src-pc-main/CMakeLists.txt;D:\mia-build\mia-obs-src-pc-main\CMakeLists.txt;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\ObsHelpers.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\ObsCpack.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CPack.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CPackComponent.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Templates\CPackConfig.cmake.in;C:\Program Files\CMake-x64\share\cmake-3.11\Templates\CPackConfig.cmake.in;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\FindCXX11.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\CopyMSVCBins.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\ALL_BUILD.vcxproj.user.in;D:\mia-build\mia-obs-src-pc-main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/mia-build/mia-obs-src-pc-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake-x64\bin\cmake.exe" -HD:/mia-build/mia-obs-src-pc-main -BD:/mia-build/mia-obs-src-pc-main/build --check-stamp-file D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/mia-build/mia-obs-src-pc-main/CMakeLists.txt;D:\mia-build\mia-obs-src-pc-main\CMakeLists.txt;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\ObsHelpers.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\ObsCpack.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CPack.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CPackComponent.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Templates\CPackConfig.cmake.in;C:\Program Files\CMake-x64\share\cmake-3.11\Templates\CPackConfig.cmake.in;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\FindCXX11.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\CopyMSVCBins.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\ALL_BUILD.vcxproj.user.in;D:\mia-build\mia-obs-src-pc-main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/mia-build/mia-obs-src-pc-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake-x64\bin\cmake.exe" -HD:/mia-build/mia-obs-src-pc-main -BD:/mia-build/mia-obs-src-pc-main/build --check-stamp-file D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/mia-build/mia-obs-src-pc-main/CMakeLists.txt;D:\mia-build\mia-obs-src-pc-main\CMakeLists.txt;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\ObsHelpers.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\ObsCpack.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CPack.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CPackComponent.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Templates\CPackConfig.cmake.in;C:\Program Files\CMake-x64\share\cmake-3.11\Templates\CPackConfig.cmake.in;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\FindCXX11.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\CopyMSVCBins.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\ALL_BUILD.vcxproj.user.in;D:\mia-build\mia-obs-src-pc-main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/mia-build/mia-obs-src-pc-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake-x64\bin\cmake.exe" -HD:/mia-build/mia-obs-src-pc-main -BD:/mia-build/mia-obs-src-pc-main/build --check-stamp-file D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/mia-build/mia-obs-src-pc-main/CMakeLists.txt;D:\mia-build\mia-obs-src-pc-main\CMakeLists.txt;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeCCompiler.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\ObsHelpers.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\ObsCpack.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CPack.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CPackComponent.cmake;C:\Program Files\CMake-x64\share\cmake-3.11\Templates\CPackConfig.cmake.in;C:\Program Files\CMake-x64\share\cmake-3.11\Templates\CPackConfig.cmake.in;C:\Program Files\CMake-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\FindCXX11.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\Modules\CopyMSVCBins.cmake;D:\mia-build\mia-obs-src-pc-main\cmake\ALL_BUILD.vcxproj.user.in;D:\mia-build\mia-obs-src-pc-main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\ZERO_CHECK.vcxproj">
+      <Project>{02772F74-01BD-378B-B417-CFFEC9E8195F}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\deps\blake2\blake2.vcxproj">
+      <Project>{ADFE6EAA-660A-3510-B85E-3807B98B9991}</Project>
+      <Name>blake2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\coreaudio-encoder\coreaudio-encoder.vcxproj">
+      <Project>{9382B8CF-2E41-3C68-AD3C-4AB91F482183}</Project>
+      <Name>coreaudio-encoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\obs-ffmpeg\ffmpeg-mux\ffmpeg-mux.vcxproj">
+      <Project>{D4FA7D44-CAAF-385C-AF25-9446D284D960}</Project>
+      <Name>ffmpeg-mux</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\deps\file-updater\file-updater.vcxproj">
+      <Project>{ACD6975C-7607-3664-9AD6-2630835AF7B6}</Project>
+      <Name>file-updater</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\UI\frontend-plugins\frontend-tools\frontend-tools.vcxproj">
+      <Project>{433A5CA0-18F4-3E09-9AD3-BFCFC02BD98C}</Project>
+      <Name>frontend-tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\win-capture\get-graphics-offsets\get-graphics-offsets.vcxproj">
+      <Project>{A1407B1F-274B-3FC1-8DB3-8389BF22E9AA}</Project>
+      <Name>get-graphics-offsets</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\deps\glad\glad.vcxproj">
+      <Project>{523E3A71-E5DA-3D4A-9FFB-31762AD7D2F3}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\win-capture\graphics-hook\graphics-hook.vcxproj">
+      <Project>{B2C48732-5679-377C-9819-D93FFE404AE7}</Project>
+      <Name>graphics-hook</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\image-source\image-source.vcxproj">
+      <Project>{FFF48E4F-8D5A-381E-8304-BB0495011049}</Project>
+      <Name>image-source</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\win-capture\inject-helper\inject-helper.vcxproj">
+      <Project>{3BAFCF3B-EE8F-3318-9AC7-33461E93429F}</Project>
+      <Name>inject-helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\deps\ipc-util\ipc-util.vcxproj">
+      <Project>{38C16B5C-281B-36E7-8063-DDAB8ED2233A}</Project>
+      <Name>ipc-util</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\deps\jansson\jansson.vcxproj">
+      <Project>{899CD5E8-B750-38D5-9D33-3DBCC6665969}</Project>
+      <Name>jansson</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\libobs\libobs.vcxproj">
+      <Project>{94C3D591-CB61-369B-9DD8-A2FDDDDD41EC}</Project>
+      <Name>libobs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\libobs-d3d11\libobs-d3d11.vcxproj">
+      <Project>{4CE9BF55-C465-3BFC-83DD-31BB93327F35}</Project>
+      <Name>libobs-d3d11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\libobs-opengl\libobs-opengl.vcxproj">
+      <Project>{96005869-98B3-3B6D-BC9A-EE77F070750A}</Project>
+      <Name>libobs-opengl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\deps\lzma\lzma.vcxproj">
+      <Project>{ED178C32-FAA7-33DE-A340-A8D500A731BC}</Project>
+      <Name>lzma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\deps\media-playback\media-playback.vcxproj">
+      <Project>{80D14A95-D23D-3EE5-A16F-B46A4A39BB2D}</Project>
+      <Name>media-playback</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\UI\obs.vcxproj">
+      <Project>{D3D3E034-366A-3508-A310-39EFD8806BA6}</Project>
+      <Name>obs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\obs-ffmpeg\obs-ffmpeg.vcxproj">
+      <Project>{5120A5C3-68D3-3AFD-BCFB-B9675730E636}</Project>
+      <Name>obs-ffmpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\obs-filters\obs-filters.vcxproj">
+      <Project>{1DACD9FD-6CCC-31C3-A516-D7C133F754B8}</Project>
+      <Name>obs-filters</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\UI\obs-frontend-api\obs-frontend-api.vcxproj">
+      <Project>{F6E87E80-615D-3D02-B851-A08DE6E03330}</Project>
+      <Name>obs-frontend-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\obs-outputs\obs-outputs.vcxproj">
+      <Project>{707CABA8-1B1F-3E97-822C-785042112C6A}</Project>
+      <Name>obs-outputs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\obs-qsv11\obs-qsv11.vcxproj">
+      <Project>{D2F33192-3CF9-3FAA-8F63-91786823D7FD}</Project>
+      <Name>obs-qsv11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\obs-text\obs-text.vcxproj">
+      <Project>{DBC32D3B-ECDB-345A-B4C7-2F97EED872D3}</Project>
+      <Name>obs-text</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\obs-transitions\obs-transitions.vcxproj">
+      <Project>{EB515CA9-BC8E-3170-9838-FCFE0F889A64}</Project>
+      <Name>obs-transitions</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\obs-x264\obs-x264.vcxproj">
+      <Project>{BD7FCACF-C235-33FB-942A-1CB0027020A0}</Project>
+      <Name>obs-x264</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\rtmp-services\rtmp-services.vcxproj">
+      <Project>{DCC8FA1B-A9D2-3D2F-B509-5294353753B3}</Project>
+      <Name>rtmp-services</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\text-freetype2\text-freetype2.vcxproj">
+      <Project>{8F796121-62F0-3BDF-8142-C9B494F689CC}</Project>
+      <Name>text-freetype2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\deps\w32-pthreads\w32-pthreads.vcxproj">
+      <Project>{A912B0BF-33FA-3B0B-97C8-DEE771D718F2}</Project>
+      <Name>w32-pthreads</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\win-capture\win-capture.vcxproj">
+      <Project>{821227EF-3B71-3D86-9A53-A6B769F0B86E}</Project>
+      <Name>win-capture</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\decklink\win\win-decklink.vcxproj">
+      <Project>{22E016B9-AC45-3250-AA01-68C6659D7F71}</Project>
+      <Name>win-decklink</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\win-mf\win-mf.vcxproj">
+      <Project>{1D6B896D-84AF-31B5-B20A-2BBC5B340E82}</Project>
+      <Name>win-mf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\mia-build\mia-obs-src-pc-main\build\plugins\win-wasapi\win-wasapi.vcxproj">
+      <Project>{3B747BD7-B7ED-358C-B48B-3DF4FE30FEDE}</Project>
+      <Name>win-wasapi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

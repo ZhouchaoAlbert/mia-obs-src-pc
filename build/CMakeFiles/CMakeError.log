@@ -1,0 +1,1050 @@
+Determining if files endian.h exist failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_652c2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:50。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_652c2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_652c2.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_652c2.dir\Debug\cmTC_652c2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_652c2.dir\Debug\cmTC_652c2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_652c2.dir\Debug\\" /Fd"cmTC_652c2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_ENDIAN_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_652c2.dir\Debug\\" /Fd"cmTC_652c2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_ENDIAN_H.c"
+  
+  HAVE_ENDIAN_H.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_ENDIAN_H.c(2): fatal error C1083: 无法打开包括文件: “endian.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_652c2.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_652c2.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_652c2.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_ENDIAN_H.c(2): fatal error C1083: 无法打开包括文件: “endian.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_652c2.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.52
+
+Source:
+/* */
+#include <endian.h>
+
+
+int main(void){return 0;}
+
+Determining if files sched.h exist failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e9af8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:52。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_e9af8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e9af8.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e9af8.dir\Debug\cmTC_e9af8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e9af8.dir\Debug\cmTC_e9af8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9af8.dir\Debug\\" /Fd"cmTC_e9af8.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SCHED_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9af8.dir\Debug\\" /Fd"cmTC_e9af8.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SCHED_H.c"
+  
+  HAVE_SCHED_H.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SCHED_H.c(2): fatal error C1083: 无法打开包括文件: “sched.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_e9af8.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_e9af8.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_e9af8.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SCHED_H.c(2): fatal error C1083: 无法打开包括文件: “sched.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_e9af8.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.48
+
+Source:
+/* */
+#include <sched.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5c7b0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:52。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_5c7b0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5c7b0.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5c7b0.dir\Debug\cmTC_5c7b0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5c7b0.dir\Debug\cmTC_5c7b0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c7b0.dir\Debug\\" /Fd"cmTC_5c7b0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c7b0.dir\Debug\\" /Fd"cmTC_5c7b0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+  
+  HAVE_UNISTD_H.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_5c7b0.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_5c7b0.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_5c7b0.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_5c7b0.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.47
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/param.h exist failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7df2a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:53。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_7df2a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7df2a.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7df2a.dir\Debug\cmTC_7df2a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7df2a.dir\Debug\cmTC_7df2a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7df2a.dir\Debug\\" /Fd"cmTC_7df2a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7df2a.dir\Debug\\" /Fd"cmTC_7df2a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c"
+  
+  HAVE_SYS_PARAM_H.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(2): fatal error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_7df2a.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_7df2a.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_7df2a.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(2): fatal error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_7df2a.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.44
+
+Source:
+/* */
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a21c3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:55。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a21c3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a21c3.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a21c3.dir\Debug\cmTC_a21c3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a21c3.dir\Debug\cmTC_a21c3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a21c3.dir\Debug\\" /Fd"cmTC_a21c3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a21c3.dir\Debug\\" /Fd"cmTC_a21c3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c"
+  
+  HAVE_SYS_TIME_H.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(2): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a21c3.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a21c3.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a21c3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(2): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a21c3.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.44
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_73c09.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:56。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_73c09.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_73c09.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_73c09.dir\Debug\cmTC_73c09.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_73c09.dir\Debug\cmTC_73c09.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73c09.dir\Debug\\" /Fd"cmTC_73c09.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73c09.dir\Debug\\" /Fd"cmTC_73c09.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c"
+  
+  HAVE_SYS_TYPES_H.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c(2): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_73c09.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_73c09.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_73c09.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c(2): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_73c09.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.44
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a70a2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:59。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a70a2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a70a2.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a70a2.dir\Debug\cmTC_a70a2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a70a2.dir\Debug\cmTC_a70a2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a70a2.dir\Debug\\" /Fd"cmTC_a70a2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a70a2.dir\Debug\\" /Fd"cmTC_a70a2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_a70a2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a70a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a70a2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a70a2.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _gettimeofday，该符号在函数 _main 中被引用 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a70a2.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_a70a2.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a70a2.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a70a2.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a70a2.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _gettimeofday，该符号在函数 _main 中被引用 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a70a2.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_a70a2.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a70a2.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.70
+
+
+Determining if the function sched_yield exists failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_22056.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:02。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_22056.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_22056.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_22056.dir\Debug\cmTC_22056.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_22056.dir\Debug\cmTC_22056.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sched_yield /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22056.dir\Debug\\" /Fd"cmTC_22056.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sched_yield /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22056.dir\Debug\\" /Fd"cmTC_22056.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_22056.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_22056.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_22056.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_22056.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _sched_yield，该符号在函数 _main 中被引用 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_22056.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_22056.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_22056.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_22056.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_22056.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _sched_yield，该符号在函数 _main 中被引用 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_22056.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_22056.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_22056.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.70
+
+
+Determining size of __uint32 failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9d21f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:17。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9d21f.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9d21f.dir\Debug\cmTC_9d21f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9d21f.dir\Debug\cmTC_9d21f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d21f.dir\Debug\\" /Fd"cmTC_9d21f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d21f.dir\Debug\\" /Fd"cmTC_9d21f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c"
+  
+  __UINT32.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c(24): error C2065: “__uint32”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c(25): error C2065: “__uint32”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c(26): error C2065: “__uint32”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c(27): error C2065: “__uint32”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c(28): error C2065: “__uint32”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c(24): error C2065: “__uint32”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c(25): error C2065: “__uint32”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c(26): error C2065: “__uint32”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c(27): error C2065: “__uint32”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT32.c(28): error C2065: “__uint32”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9d21f.vcxproj]
+
+    0 个警告
+    5 个错误
+
+已用时间 00:00:00.45
+
+D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CheckTypeSize/__UINT32.c:
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__uint32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __uint16 failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_05435.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:19。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_05435.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_05435.dir\Debug\cmTC_05435.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_05435.dir\Debug\cmTC_05435.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05435.dir\Debug\\" /Fd"cmTC_05435.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05435.dir\Debug\\" /Fd"cmTC_05435.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c"
+  
+  __UINT16.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c(24): error C2065: “__uint16”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c(25): error C2065: “__uint16”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c(26): error C2065: “__uint16”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c(27): error C2065: “__uint16”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c(28): error C2065: “__uint16”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c(24): error C2065: “__uint16”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c(25): error C2065: “__uint16”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c(26): error C2065: “__uint16”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c(27): error C2065: “__uint16”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT16.c(28): error C2065: “__uint16”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_05435.vcxproj]
+
+    0 个警告
+    5 个错误
+
+已用时间 00:00:00.46
+
+D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CheckTypeSize/__UINT16.c:
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__uint16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __uint8 failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c5a62.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:21。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c5a62.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c5a62.dir\Debug\cmTC_c5a62.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c5a62.dir\Debug\cmTC_c5a62.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5a62.dir\Debug\\" /Fd"cmTC_c5a62.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5a62.dir\Debug\\" /Fd"cmTC_c5a62.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c"
+  
+  __UINT8.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c(24): error C2065: “__uint8”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c(25): error C2065: “__uint8”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c(26): error C2065: “__uint8”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c(27): error C2065: “__uint8”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c(28): error C2065: “__uint8”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c(24): error C2065: “__uint8”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c(25): error C2065: “__uint8”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c(26): error C2065: “__uint8”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c(27): error C2065: “__uint8”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__UINT8.c(28): error C2065: “__uint8”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c5a62.vcxproj]
+
+    0 个警告
+    5 个错误
+
+已用时间 00:00:00.46
+
+D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CheckTypeSize/__UINT8.c:
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__uint8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ssize_t failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a0221.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:22。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a0221.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a0221.dir\Debug\cmTC_a0221.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a0221.dir\Debug\cmTC_a0221.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0221.dir\Debug\\" /Fd"cmTC_a0221.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0221.dir\Debug\\" /Fd"cmTC_a0221.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c"
+  
+  SSIZE_T.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(24): error C2065: “ssize_t”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(25): error C2065: “ssize_t”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(26): error C2065: “ssize_t”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(27): error C2065: “ssize_t”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(28): error C2065: “ssize_t”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(24): error C2065: “ssize_t”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(25): error C2065: “ssize_t”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(26): error C2065: “ssize_t”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(27): error C2065: “ssize_t”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\SSIZE_T.c(28): error C2065: “ssize_t”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0221.vcxproj]
+
+    0 个警告
+    5 个错误
+
+已用时间 00:00:00.45
+
+D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CheckTypeSize/SSIZE_T.c:
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of SSIZE_T failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_10e71.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:23。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_10e71.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_10e71.dir\Debug\cmTC_10e71.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_10e71.dir\Debug\cmTC_10e71.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10e71.dir\Debug\\" /Fd"cmTC_10e71.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10e71.dir\Debug\\" /Fd"cmTC_10e71.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c"
+  
+  UPPERCASE_SSIZE_T.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c(24): error C2065: “SSIZE_T”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c(25): error C2065: “SSIZE_T”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c(26): error C2065: “SSIZE_T”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c(27): error C2065: “SSIZE_T”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c(28): error C2065: “SSIZE_T”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c(24): error C2065: “SSIZE_T”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c(25): error C2065: “SSIZE_T”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c(26): error C2065: “SSIZE_T”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c(27): error C2065: “SSIZE_T”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UPPERCASE_SSIZE_T.c(28): error C2065: “SSIZE_T”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_10e71.vcxproj]
+
+    0 个警告
+    5 个错误
+
+已用时间 00:00:00.45
+
+D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(SSIZE_T))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function strtoq exists failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_41881.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:25。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_41881.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_41881.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_41881.dir\Debug\cmTC_41881.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_41881.dir\Debug\cmTC_41881.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoq /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41881.dir\Debug\\" /Fd"cmTC_41881.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoq /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41881.dir\Debug\\" /Fd"cmTC_41881.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_41881.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_41881.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_41881.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_41881.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _strtoq，该符号在函数 _main 中被引用 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_41881.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_41881.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_41881.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_41881.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_41881.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 _strtoq，该符号在函数 _main 中被引用 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_41881.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_41881.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_41881.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.71
+
+
+Performing C SOURCE FILE Test HAVE___INLINE__ failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ede10.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:32。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ede10.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ede10.dir\Debug\cmTC_ede10.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ede10.dir\Debug\cmTC_ede10.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE___INLINE__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ede10.dir\Debug\\" /Fd"cmTC_ede10.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE___INLINE__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ede10.dir\Debug\\" /Fd"cmTC_ede10.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2054: 在“__inline__”之后应输入“(” [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2085: “func”: 不在形参表中 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2143: 语法错误: 缺少“;”(在“{”的前面) [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): warning C4013: “func”未定义；假设外部返回 int [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): warning C4013: “func”未定义；假设外部返回 int [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj]
+
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2054: 在“__inline__”之后应输入“(” [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2085: “func”: 不在形参表中 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2143: 语法错误: 缺少“;”(在“{”的前面) [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ede10.vcxproj]
+
+    1 个警告
+    3 个错误
+
+已用时间 00:00:00.45
+
+Source file was:
+__inline__ void func(); void func() { } int main() { func(); return 0; }
+Performing C SOURCE FILE Test HAVE_SYNC_BUILTINS failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_07e65.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:33。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_07e65.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_07e65.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_07e65.dir\Debug\cmTC_07e65.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_07e65.dir\Debug\cmTC_07e65.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SYNC_BUILTINS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07e65.dir\Debug\\" /Fd"cmTC_07e65.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SYNC_BUILTINS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07e65.dir\Debug\\" /Fd"cmTC_07e65.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): warning C4013: “__sync_bool_compare_and_swap”未定义；假设外部返回 int [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_07e65.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_07e65.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_07e65.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_07e65.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_07e65.dir\Debug\src.obj
+src.obj : error LNK2019: 无法解析的外部符号 ___sync_bool_compare_and_swap，该符号在函数 _main 中被引用 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_07e65.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_07e65.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_07e65.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_07e65.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_07e65.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): warning C4013: “__sync_bool_compare_and_swap”未定义；假设外部返回 int [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_07e65.vcxproj]
+
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_07e65.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  src.obj : error LNK2019: 无法解析的外部符号 ___sync_bool_compare_and_swap，该符号在函数 _main 中被引用 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_07e65.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_07e65.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_07e65.vcxproj]
+
+    1 个警告
+    2 个错误
+
+已用时间 00:00:00.71
+
+Source file was:
+int main() { unsigned long val; __sync_bool_compare_and_swap(&val, 0, 1); return 0; } 
+Performing C SOURCE FILE Test HAVE_ATOMIC_BUILTINS failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f0690.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:34。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f0690.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f0690.dir\Debug\cmTC_f0690.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f0690.dir\Debug\cmTC_f0690.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_ATOMIC_BUILTINS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0690.dir\Debug\\" /Fd"cmTC_f0690.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_ATOMIC_BUILTINS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0690.dir\Debug\\" /Fd"cmTC_f0690.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): warning C4013: “__atomic_test_and_set”未定义；假设外部返回 int [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2065: “__ATOMIC_RELAXED”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): warning C4013: “__atomic_store_n”未定义；假设外部返回 int [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2065: “__ATOMIC_RELEASE”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): warning C4013: “__atomic_load_n”未定义；假设外部返回 int [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2065: “__ATOMIC_ACQUIRE”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): warning C4013: “__atomic_test_and_set”未定义；假设外部返回 int [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): warning C4013: “__atomic_store_n”未定义；假设外部返回 int [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): warning C4013: “__atomic_load_n”未定义；假设外部返回 int [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2065: “__ATOMIC_RELAXED”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2065: “__ATOMIC_RELEASE”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c(1): error C2065: “__ATOMIC_ACQUIRE”: 未声明的标识符 [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f0690.vcxproj]
+
+    3 个警告
+    3 个错误
+
+已用时间 00:00:00.44
+
+Source file was:
+int main() { char l; unsigned long v; __atomic_test_and_set(&l, __ATOMIC_RELAXED); __atomic_store_n(&v, 1, __ATOMIC_RELEASE); __atomic_load_n(&v, __ATOMIC_ACQUIRE); return 0; }
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a0386.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:35。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0386.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a0386.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a0386.dir\Debug\cmTC_a0386.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a0386.dir\Debug\cmTC_a0386.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0386.dir\Debug\\" /Fd"cmTC_a0386.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\CMAKE_HAVE_PTHREAD_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0386.dir\Debug\\" /Fd"cmTC_a0386.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\CMAKE_HAVE_PTHREAD_H.c"
+  
+  CMAKE_HAVE_PTHREAD_H.c
+D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\CMAKE_HAVE_PTHREAD_H.c(2): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0386.vcxproj]
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0386.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0386.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\CMAKE_HAVE_PTHREAD_H.c(2): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a0386.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.47
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(void){return 0;}
+

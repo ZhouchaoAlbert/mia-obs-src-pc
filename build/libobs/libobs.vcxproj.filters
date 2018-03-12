@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\callback\calldata.c">
+      <Filter>callback\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\callback\decl.c">
+      <Filter>callback\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\callback\signal.c">
+      <Filter>callback\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\callback\proc.c">
+      <Filter>callback\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\graphics-ffmpeg.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\quat.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\effect-parser.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\axisang.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\vec4.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\vec2.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\libnsgif\libnsgif.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\texture-render.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\image-file.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\bounds.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\matrix3.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\matrix4.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\vec3.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\graphics.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\shader-parser.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\plane.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\effect.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\math-extra.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\graphics-imports.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\video-io.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\video-fourcc.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\video-matrices.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\audio-io.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\video-frame.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\format-conversion.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\audio-resampler-ffmpeg.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\video-scaler-ffmpeg.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\media-remux.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\array-serializer.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\file-serializer.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\base.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\platform.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\cf-lexer.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\bmem.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\config-file.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\lexer.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\dstr.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\utf8.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\crc32.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\text-lookup.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\cf-parser.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\profiler.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-win-crash-handler.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-windows.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\threading-windows.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\pipe-windows.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\platform-windows.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-audio-controls.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-avc.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-encoder.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-service.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-source.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-source-deinterlace.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-source-transition.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-output.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-output-delay.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-properties.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-data.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-hotkey.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-hotkey-name-map.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-module.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-display.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-view.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-scene.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-audio.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-video.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\audio-monitoring\win32\wasapi-output.c">
+      <Filter>audio-monitoring\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\libobs\audio-monitoring\win32\wasapi-enum-devices.c">
+      <Filter>audio-monitoring\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\config\obsconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\callback\calldata.h">
+      <Filter>callback\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\callback\decl.h">
+      <Filter>callback\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\callback\proc.h">
+      <Filter>callback\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\callback\signal.h">
+      <Filter>callback\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\plane.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\quat.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\input.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\axisang.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\shader-parser.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\effect.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\math-defs.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\matrix4.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\graphics.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\graphics-internal.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\libnsgif\libnsgif.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\device-exports.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\image-file.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\vec2.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\vec4.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\matrix3.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\vec3.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\math-extra.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\bounds.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\graphics\effect-parser.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\media-io-defs.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\video-io.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\audio-io.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\audio-math.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\video-frame.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\format-conversion.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\audio-resampler.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\video-scaler.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\media-remux.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\media-io\frame-rate.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\array-serializer.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\file-serializer.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\utf8.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\crc32.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\base.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\text-lookup.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\vc\vc_inttypes.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\vc\vc_stdbool.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\vc\vc_stdint.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\bmem.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\c99defs.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\util_uint128.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\cf-parser.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\threading.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\pipe.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\cf-lexer.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\darray.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\circlebuf.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\dstr.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\serializer.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\config-file.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\lexer.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\platform.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\profiler.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\profiler.hpp">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\threading-windows.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\windows\win-registry.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\windows\win-version.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\windows\ComPtr.hpp">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\windows\CoTaskMemPtr.hpp">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\windows\HRError.hpp">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\util\windows\WinHandle.hpp">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-audio-controls.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-defs.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-avc.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-encoder.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-service.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-internal.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-ui.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-properties.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-data.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-interaction.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-hotkey.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-hotkeys.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-module.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-scene.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-source.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-output.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs-ffmpeg-compat.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\obs.hpp">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\libobs\audio-monitoring\win32\wasapi-output.h">
+      <Filter>audio-monitoring\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\mia-build\mia-obs-src-pc-main\libobs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0433A0B2-89DC-3B67-97CC-B673383DDD08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio-monitoring">
+      <UniqueIdentifier>{ECCBDE59-13AA-3BF8-B175-9C4BD3962EA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio-monitoring\Header Files">
+      <UniqueIdentifier>{ED24AD83-8EF4-361E-BC4C-7C8CB2ABC4C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio-monitoring\Source Files">
+      <UniqueIdentifier>{B48B1711-2587-3381-8FE5-A4957D1AFAC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="callback">
+      <UniqueIdentifier>{6C71564B-6380-30E5-B55C-3B523B433FA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="callback\Header Files">
+      <UniqueIdentifier>{A61B36EC-A835-3D94-88EC-133E8035390B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="callback\Source Files">
+      <UniqueIdentifier>{87856265-2352-392D-9D97-6C5E215EDA17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{3531F276-7FD6-3B4F-9897-72A29819E879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\Header Files">
+      <UniqueIdentifier>{098D9E65-D340-3FFE-9C09-461352F5171A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\Source Files">
+      <UniqueIdentifier>{D357B844-5282-3B6A-A617-D552ECE19088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libobs">
+      <UniqueIdentifier>{036DFF88-316D-342A-B970-A4AD4D33AB96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libobs\Header Files">
+      <UniqueIdentifier>{CFA50062-75E6-3520-B038-76700E107519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libobs\Source Files">
+      <UniqueIdentifier>{810DAE36-FE55-37A1-BA18-2F97AC9AF806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media-io">
+      <UniqueIdentifier>{225B3899-635B-324F-938A-6D266B513FA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media-io\Header Files">
+      <UniqueIdentifier>{497ED0E2-5AB9-3109-A4E4-D2821AD1EC4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media-io\Source Files">
+      <UniqueIdentifier>{408A6E10-D377-394F-9473-E8D486144BF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{0F491C14-5A48-3C1A-B923-7C6398593BF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\Header Files">
+      <UniqueIdentifier>{D103E155-A054-3F27-A8F2-B0D9C02DBF03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\Source Files">
+      <UniqueIdentifier>{E34C0EFF-0D38-3573-BC6A-BA9C1BB480D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

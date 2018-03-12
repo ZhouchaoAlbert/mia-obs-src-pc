@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+D:/mia-build/mia-obs-src-pc-main/deps/obs-scripting/CMakeLists.txt
+D:/mia-build/mia-obs-src-pc-main/cmake/Modules/FindLuajit.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageMessage.cmake
+D:/mia-build/mia-obs-src-pc-main/cmake/Modules/FindPythonDeps.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageMessage.cmake
+D:/mia-build/mia-obs-src-pc-main/cmake/Modules/FindSwigDeps.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindSWIG.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageMessage.cmake

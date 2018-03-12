@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/mia-build/mia-obs-src-pc-main/deps/glad/CMakeLists.txt
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindOpenGL.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageMessage.cmake

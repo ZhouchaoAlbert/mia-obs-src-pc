@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/mia-build/mia-obs-src-pc-main/deps/CMakeLists.txt
+D:/mia-build/mia-obs-src-pc-main/cmake/Modules/FindJansson.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/FindPackageMessage.cmake

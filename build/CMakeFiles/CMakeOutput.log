@@ -1,0 +1,1488 @@
+The system is: Windows - 10.0.16299 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) ��������汾 14.0.25420.1
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/3/12 23:30:06��
+�ڵ� 1 �ϵ���Ŀ��D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.73
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/3.11.0-rc2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) ��������汾 14.0.25420.1
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/3/12 23:30:07��
+�ڵ� 1 �ϵ���Ŀ��D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdCXX.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\3.11.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.75
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/3.11.0-rc2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_04475.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:30:08。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_04475.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_04475.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_04475.dir\Debug\cmTC_04475.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_04475.dir\Debug\cmTC_04475.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04475.dir\Debug\\" /Fd"cmTC_04475.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04475.dir\Debug\\" /Fd"cmTC_04475.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_04475.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_04475.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_04475.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_04475.dir\Debug\testCCompiler.obj
+  cmTC_04475.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_04475.exe
+  cmTC_04475.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_04475.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_04475.dir\Debug\cmTC_04475.tlog\unsuccessfulbuild”。
+  正在对“cmTC_04475.dir\Debug\cmTC_04475.tlog\cmTC_04475.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_04475.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.79
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6d472.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:30:09。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_6d472.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6d472.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6d472.dir\Debug\cmTC_6d472.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6d472.dir\Debug\cmTC_6d472.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d472.dir\Debug\\" /Fd"cmTC_6d472.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d472.dir\Debug\\" /Fd"cmTC_6d472.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_6d472.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6d472.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6d472.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6d472.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_6d472.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_6d472.exe
+  cmTC_6d472.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6d472.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6d472.dir\Debug\cmTC_6d472.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6d472.dir\Debug\cmTC_6d472.tlog\cmTC_6d472.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_6d472.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d0d8f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:30:11。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_d0d8f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d0d8f.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d0d8f.dir\Debug\cmTC_d0d8f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d0d8f.dir\Debug\cmTC_d0d8f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d0d8f.dir\Debug\\" /Fd"cmTC_d0d8f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d0d8f.dir\Debug\\" /Fd"cmTC_d0d8f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_d0d8f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_d0d8f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_d0d8f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d0d8f.dir\Debug\testCXXCompiler.obj
+  cmTC_d0d8f.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_d0d8f.exe
+  cmTC_d0d8f.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_d0d8f.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d0d8f.dir\Debug\cmTC_d0d8f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d0d8f.dir\Debug\cmTC_d0d8f.tlog\cmTC_d0d8f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_d0d8f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a1153.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:30:12。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a1153.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a1153.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a1153.dir\Debug\cmTC_a1153.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a1153.dir\Debug\cmTC_a1153.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a1153.dir\Debug\\" /Fd"cmTC_a1153.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a1153.dir\Debug\\" /Fd"cmTC_a1153.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_a1153.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a1153.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a1153.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a1153.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_a1153.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_a1153.exe
+  cmTC_a1153.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a1153.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a1153.dir\Debug\cmTC_a1153.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a1153.dir\Debug\cmTC_a1153.tlog\cmTC_a1153.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a1153.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_00133.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:30:13。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_00133.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_00133.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_00133.dir\Debug\cmTC_00133.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_00133.dir\Debug\cmTC_00133.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_00133.dir\Debug\\" /Fd"cmTC_00133.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\feature_tests.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_00133.dir\Debug\\" /Fd"cmTC_00133.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_00133.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_00133.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_00133.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_00133.dir\Debug\feature_tests.obj
+  cmTC_00133.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_00133.exe
+  cmTC_00133.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_00133.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_00133.dir\Debug\cmTC_00133.tlog\unsuccessfulbuild”。
+  正在对“cmTC_00133.dir\Debug\cmTC_00133.tlog\cmTC_00133.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_00133.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.82
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Performing C++ SOURCE FILE Test CXX11_FLAG_DETECTED succeeded with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c3014.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:30:15。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c3014.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c3014.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c3014.dir\Debug\cmTC_c3014.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c3014.dir\Debug\cmTC_c3014.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CXX11_FLAG_DETECTED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c3014.dir\Debug\\" /Fd"cmTC_c3014.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CXX11_FLAG_DETECTED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c3014.dir\Debug\\" /Fd"cmTC_c3014.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_c3014.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_c3014.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_c3014.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c3014.dir\Debug\src.obj
+  cmTC_c3014.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_c3014.exe
+  cmTC_c3014.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_c3014.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c3014.dir\Debug\cmTC_c3014.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c3014.dir\Debug\cmTC_c3014.tlog\cmTC_c3014.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c3014.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.82
+
+Source file was:
+
+int main()
+{
+    int n[] = {4,7,6,1,2};
+	int r;
+	auto f = [&](int j) { r = j; };
+	
+    for (auto i : n)
+        f(i);
+    return 0;
+}
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5872d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:50。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_5872d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5872d.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5872d.dir\Debug\cmTC_5872d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5872d.dir\Debug\cmTC_5872d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5872d.dir\Debug\\" /Fd"cmTC_5872d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5872d.dir\Debug\\" /Fd"cmTC_5872d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c"
+  
+  HAVE_FCNTL_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_5872d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_5872d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_5872d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5872d.dir\Debug\HAVE_FCNTL_H.obj
+  cmTC_5872d.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_5872d.exe
+  cmTC_5872d.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_5872d.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5872d.dir\Debug\cmTC_5872d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5872d.dir\Debug\cmTC_5872d.tlog\cmTC_5872d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_5872d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6f65a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:54。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_6f65a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6f65a.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6f65a.dir\Debug\cmTC_6f65a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6f65a.dir\Debug\cmTC_6f65a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f65a.dir\Debug\\" /Fd"cmTC_6f65a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STAT_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f65a.dir\Debug\\" /Fd"cmTC_6f65a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STAT_H.c"
+  
+  HAVE_SYS_STAT_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_6f65a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6f65a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6f65a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6f65a.dir\Debug\HAVE_SYS_STAT_H.obj
+  cmTC_6f65a.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_6f65a.exe
+  cmTC_6f65a.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6f65a.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6f65a.dir\Debug\cmTC_6f65a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6f65a.dir\Debug\cmTC_6f65a.tlog\cmTC_6f65a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_6f65a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.79
+
+
+Determining if the function close exists passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5ed56.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:56。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_5ed56.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5ed56.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5ed56.dir\Debug\cmTC_5ed56.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5ed56.dir\Debug\cmTC_5ed56.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=close /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ed56.dir\Debug\\" /Fd"cmTC_5ed56.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=close /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ed56.dir\Debug\\" /Fd"cmTC_5ed56.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_5ed56.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_5ed56.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_5ed56.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5ed56.dir\Debug\CheckFunctionExists.obj
+  cmTC_5ed56.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_5ed56.exe
+  cmTC_5ed56.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_5ed56.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5ed56.dir\Debug\cmTC_5ed56.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5ed56.dir\Debug\cmTC_5ed56.tlog\cmTC_5ed56.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_5ed56.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_be876.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:31:57。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_be876.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_be876.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_be876.dir\Debug\cmTC_be876.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_be876.dir\Debug\cmTC_be876.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be876.dir\Debug\\" /Fd"cmTC_be876.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpid /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be876.dir\Debug\\" /Fd"cmTC_be876.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_be876.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_be876.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_be876.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_be876.dir\Debug\CheckFunctionExists.obj
+  cmTC_be876.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_be876.exe
+  cmTC_be876.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_be876.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_be876.dir\Debug\cmTC_be876.tlog\unsuccessfulbuild”。
+  正在对“cmTC_be876.dir\Debug\cmTC_be876.tlog\cmTC_be876.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_be876.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.82
+
+
+Determining if the function open exists passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f97a4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:00。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f97a4.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f97a4.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f97a4.dir\Debug\cmTC_f97a4.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f97a4.dir\Debug\cmTC_f97a4.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=open /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f97a4.dir\Debug\\" /Fd"cmTC_f97a4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=open /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f97a4.dir\Debug\\" /Fd"cmTC_f97a4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_f97a4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_f97a4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_f97a4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f97a4.dir\Debug\CheckFunctionExists.obj
+  cmTC_f97a4.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_f97a4.exe
+  cmTC_f97a4.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_f97a4.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f97a4.dir\Debug\cmTC_f97a4.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f97a4.dir\Debug\cmTC_f97a4.tlog\cmTC_f97a4.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f97a4.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if the function read exists passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7897b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:01。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_7897b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7897b.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7897b.dir\Debug\cmTC_7897b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7897b.dir\Debug\cmTC_7897b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=read /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7897b.dir\Debug\\" /Fd"cmTC_7897b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=read /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7897b.dir\Debug\\" /Fd"cmTC_7897b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_7897b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_7897b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_7897b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7897b.dir\Debug\CheckFunctionExists.obj
+  cmTC_7897b.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_7897b.exe
+  cmTC_7897b.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_7897b.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7897b.dir\Debug\cmTC_7897b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7897b.dir\Debug\cmTC_7897b.tlog\cmTC_7897b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_7897b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8864d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:03。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_8864d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8864d.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8864d.dir\Debug\cmTC_8864d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8864d.dir\Debug\cmTC_8864d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8864d.dir\Debug\\" /Fd"cmTC_8864d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8864d.dir\Debug\\" /Fd"cmTC_8864d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c"
+  
+  HAVE_STDINT_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_8864d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_8864d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_8864d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8864d.dir\Debug\HAVE_STDINT_H.obj
+  cmTC_8864d.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_8864d.exe
+  cmTC_8864d.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_8864d.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8864d.dir\Debug\cmTC_8864d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8864d.dir\Debug\cmTC_8864d.tlog\cmTC_8864d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_8864d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a76b0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:04。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a76b0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a76b0.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a76b0.dir\Debug\cmTC_a76b0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a76b0.dir\Debug\cmTC_a76b0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a76b0.dir\Debug\\" /Fd"cmTC_a76b0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a76b0.dir\Debug\\" /Fd"cmTC_a76b0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_a76b0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a76b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a76b0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a76b0.dir\Debug\CheckIncludeFile.obj
+  cmTC_a76b0.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_a76b0.exe
+  cmTC_a76b0.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a76b0.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a76b0.dir\Debug\cmTC_a76b0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a76b0.dir\Debug\cmTC_a76b0.tlog\cmTC_a76b0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a76b0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.79
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bc99f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:05。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_bc99f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_bc99f.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_bc99f.dir\Debug\cmTC_bc99f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_bc99f.dir\Debug\cmTC_bc99f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc99f.dir\Debug\\" /Fd"cmTC_bc99f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__INT64.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc99f.dir\Debug\\" /Fd"cmTC_bc99f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__INT64.c"
+  
+  __INT64.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_bc99f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_bc99f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_bc99f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bc99f.dir\Debug\__INT64.obj
+  cmTC_bc99f.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_bc99f.exe
+  cmTC_bc99f.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_bc99f.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_bc99f.dir\Debug\cmTC_bc99f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_bc99f.dir\Debug\cmTC_bc99f.tlog\cmTC_bc99f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_bc99f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a850a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:06。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a850a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a850a.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a850a.dir\Debug\cmTC_a850a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a850a.dir\Debug\cmTC_a850a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a850a.dir\Debug\\" /Fd"cmTC_a850a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\INT64_T.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a850a.dir\Debug\\" /Fd"cmTC_a850a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\INT64_T.c"
+  
+  INT64_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_a850a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a850a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a850a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a850a.dir\Debug\INT64_T.obj
+  cmTC_a850a.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_a850a.exe
+  cmTC_a850a.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_a850a.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a850a.dir\Debug\cmTC_a850a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a850a.dir\Debug\cmTC_a850a.tlog\cmTC_a850a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_a850a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.85
+
+
+Determining size of long long passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9efe3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:07。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9efe3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9efe3.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9efe3.dir\Debug\cmTC_9efe3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9efe3.dir\Debug\cmTC_9efe3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9efe3.dir\Debug\\" /Fd"cmTC_9efe3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9efe3.dir\Debug\\" /Fd"cmTC_9efe3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c"
+  
+  LONG_LONG_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_9efe3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_9efe3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_9efe3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9efe3.dir\Debug\LONG_LONG_INT.obj
+  cmTC_9efe3.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_9efe3.exe
+  cmTC_9efe3.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_9efe3.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_9efe3.dir\Debug\cmTC_9efe3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_9efe3.dir\Debug\cmTC_9efe3.tlog\cmTC_9efe3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_9efe3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f51ca.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:08。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f51ca.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f51ca.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f51ca.dir\Debug\cmTC_f51ca.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f51ca.dir\Debug\cmTC_f51ca.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f51ca.dir\Debug\\" /Fd"cmTC_f51ca.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\INT32_T.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f51ca.dir\Debug\\" /Fd"cmTC_f51ca.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\INT32_T.c"
+  
+  INT32_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_f51ca.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_f51ca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_f51ca.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f51ca.dir\Debug\INT32_T.obj
+  cmTC_f51ca.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_f51ca.exe
+  cmTC_f51ca.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_f51ca.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f51ca.dir\Debug\cmTC_f51ca.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f51ca.dir\Debug\cmTC_f51ca.tlog\cmTC_f51ca.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f51ca.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Determining size of __int32 passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7d847.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:10。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_7d847.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7d847.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7d847.dir\Debug\cmTC_7d847.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7d847.dir\Debug\cmTC_7d847.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d847.dir\Debug\\" /Fd"cmTC_7d847.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__INT32.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d847.dir\Debug\\" /Fd"cmTC_7d847.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\__INT32.c"
+  
+  __INT32.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_7d847.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_7d847.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_7d847.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7d847.dir\Debug\__INT32.obj
+  cmTC_7d847.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_7d847.exe
+  cmTC_7d847.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_7d847.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7d847.dir\Debug\cmTC_7d847.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7d847.dir\Debug\cmTC_7d847.tlog\cmTC_7d847.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_7d847.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining size of long passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_efccc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:11。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_efccc.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_efccc.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_efccc.dir\Debug\cmTC_efccc.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_efccc.dir\Debug\cmTC_efccc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efccc.dir\Debug\\" /Fd"cmTC_efccc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\LONG_INT.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efccc.dir\Debug\\" /Fd"cmTC_efccc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\LONG_INT.c"
+  
+  LONG_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_efccc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_efccc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_efccc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_efccc.dir\Debug\LONG_INT.obj
+  cmTC_efccc.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_efccc.exe
+  cmTC_efccc.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_efccc.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_efccc.dir\Debug\cmTC_efccc.tlog\unsuccessfulbuild”。
+  正在对“cmTC_efccc.dir\Debug\cmTC_efccc.tlog\cmTC_efccc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_efccc.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Determining size of int passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_63eb2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:12。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_63eb2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_63eb2.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_63eb2.dir\Debug\cmTC_63eb2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_63eb2.dir\Debug\cmTC_63eb2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63eb2.dir\Debug\\" /Fd"cmTC_63eb2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\INT.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63eb2.dir\Debug\\" /Fd"cmTC_63eb2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\INT.c"
+  
+  INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_63eb2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_63eb2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_63eb2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_63eb2.dir\Debug\INT.obj
+  cmTC_63eb2.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_63eb2.exe
+  cmTC_63eb2.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_63eb2.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_63eb2.dir\Debug\cmTC_63eb2.tlog\unsuccessfulbuild”。
+  正在对“cmTC_63eb2.dir\Debug\cmTC_63eb2.tlog\cmTC_63eb2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_63eb2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3164d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:13。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_3164d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3164d.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3164d.dir\Debug\cmTC_3164d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3164d.dir\Debug\cmTC_3164d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3164d.dir\Debug\\" /Fd"cmTC_3164d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3164d.dir\Debug\\" /Fd"cmTC_3164d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c"
+  
+  UNSIGNED_LONG_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_3164d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_3164d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_3164d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3164d.dir\Debug\UNSIGNED_LONG_INT.obj
+  cmTC_3164d.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_3164d.exe
+  cmTC_3164d.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_3164d.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3164d.dir\Debug\cmTC_3164d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3164d.dir\Debug\cmTC_3164d.tlog\cmTC_3164d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_3164d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.87
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8df47.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:14。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_8df47.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8df47.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8df47.dir\Debug\cmTC_8df47.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8df47.dir\Debug\cmTC_8df47.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8df47.dir\Debug\\" /Fd"cmTC_8df47.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8df47.dir\Debug\\" /Fd"cmTC_8df47.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c"
+  
+  UNSIGNED_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_8df47.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_8df47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_8df47.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8df47.dir\Debug\UNSIGNED_INT.obj
+  cmTC_8df47.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_8df47.exe
+  cmTC_8df47.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_8df47.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8df47.dir\Debug\cmTC_8df47.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8df47.dir\Debug\cmTC_8df47.tlog\cmTC_8df47.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_8df47.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.82
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d7e21.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:15。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_d7e21.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d7e21.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d7e21.dir\Debug\cmTC_d7e21.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d7e21.dir\Debug\cmTC_d7e21.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7e21.dir\Debug\\" /Fd"cmTC_d7e21.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7e21.dir\Debug\\" /Fd"cmTC_d7e21.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c"
+  
+  UNSIGNED_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_d7e21.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_d7e21.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_d7e21.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d7e21.dir\Debug\UNSIGNED_SHORT.obj
+  cmTC_d7e21.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_d7e21.exe
+  cmTC_d7e21.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_d7e21.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d7e21.dir\Debug\cmTC_d7e21.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d7e21.dir\Debug\cmTC_d7e21.tlog\cmTC_d7e21.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_d7e21.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b1f38.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:16。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_b1f38.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b1f38.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b1f38.dir\Debug\cmTC_b1f38.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b1f38.dir\Debug\cmTC_b1f38.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1f38.dir\Debug\\" /Fd"cmTC_b1f38.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UINT32_T.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1f38.dir\Debug\\" /Fd"cmTC_b1f38.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UINT32_T.c"
+  
+  UINT32_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_b1f38.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_b1f38.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_b1f38.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b1f38.dir\Debug\UINT32_T.obj
+  cmTC_b1f38.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_b1f38.exe
+  cmTC_b1f38.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_b1f38.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b1f38.dir\Debug\cmTC_b1f38.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b1f38.dir\Debug\cmTC_b1f38.tlog\cmTC_b1f38.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_b1f38.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_19d78.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:18。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_19d78.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_19d78.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_19d78.dir\Debug\cmTC_19d78.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_19d78.dir\Debug\cmTC_19d78.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19d78.dir\Debug\\" /Fd"cmTC_19d78.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UINT16_T.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19d78.dir\Debug\\" /Fd"cmTC_19d78.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UINT16_T.c"
+  
+  UINT16_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_19d78.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_19d78.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_19d78.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_19d78.dir\Debug\UINT16_T.obj
+  cmTC_19d78.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_19d78.exe
+  cmTC_19d78.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_19d78.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_19d78.dir\Debug\cmTC_19d78.tlog\unsuccessfulbuild”。
+  正在对“cmTC_19d78.dir\Debug\cmTC_19d78.tlog\cmTC_19d78.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_19d78.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_aac02.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:20。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_aac02.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_aac02.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_aac02.dir\Debug\cmTC_aac02.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_aac02.dir\Debug\cmTC_aac02.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aac02.dir\Debug\\" /Fd"cmTC_aac02.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UINT8_T.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aac02.dir\Debug\\" /Fd"cmTC_aac02.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckTypeSize\UINT8_T.c"
+  
+  UINT8_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_aac02.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_aac02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_aac02.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_aac02.dir\Debug\UINT8_T.obj
+  cmTC_aac02.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_aac02.exe
+  cmTC_aac02.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_aac02.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_aac02.dir\Debug\cmTC_aac02.tlog\unsuccessfulbuild”。
+  正在对“cmTC_aac02.dir\Debug\cmTC_aac02.tlog\cmTC_aac02.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_aac02.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_526f8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:24。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_526f8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_526f8.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_526f8.dir\Debug\cmTC_526f8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_526f8.dir\Debug\cmTC_526f8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_526f8.dir\Debug\\" /Fd"cmTC_526f8.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_526f8.dir\Debug\\" /Fd"cmTC_526f8.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_526f8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_526f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_526f8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_526f8.dir\Debug\CheckFunctionExists.obj
+  cmTC_526f8.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_526f8.exe
+  cmTC_526f8.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_526f8.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_526f8.dir\Debug\cmTC_526f8.tlog\unsuccessfulbuild”。
+  正在对“cmTC_526f8.dir\Debug\cmTC_526f8.tlog\cmTC_526f8.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_526f8.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.79
+
+
+Determining if the function _strtoi64 exists passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ebe59.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:26。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ebe59.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ebe59.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ebe59.dir\Debug\cmTC_ebe59.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ebe59.dir\Debug\cmTC_ebe59.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_strtoi64 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ebe59.dir\Debug\\" /Fd"cmTC_ebe59.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_strtoi64 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ebe59.dir\Debug\\" /Fd"cmTC_ebe59.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_ebe59.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_ebe59.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_ebe59.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ebe59.dir\Debug\CheckFunctionExists.obj
+  cmTC_ebe59.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_ebe59.exe
+  cmTC_ebe59.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_ebe59.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ebe59.dir\Debug\cmTC_ebe59.tlog\unsuccessfulbuild”。
+  正在对“cmTC_ebe59.dir\Debug\cmTC_ebe59.tlog\cmTC_ebe59.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_ebe59.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6863b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:27。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_6863b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6863b.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6863b.dir\Debug\cmTC_6863b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6863b.dir\Debug\cmTC_6863b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6863b.dir\Debug\\" /Fd"cmTC_6863b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6863b.dir\Debug\\" /Fd"cmTC_6863b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c"
+  
+  HAVE_LOCALE_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_6863b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6863b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6863b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6863b.dir\Debug\HAVE_LOCALE_H.obj
+  cmTC_6863b.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_6863b.exe
+  cmTC_6863b.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6863b.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6863b.dir\Debug\cmTC_6863b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6863b.dir\Debug\cmTC_6863b.tlog\cmTC_6863b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_6863b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Determining if the function localeconv exists passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6f1e5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:28。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_6f1e5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6f1e5.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6f1e5.dir\Debug\cmTC_6f1e5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6f1e5.dir\Debug\cmTC_6f1e5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=localeconv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f1e5.dir\Debug\\" /Fd"cmTC_6f1e5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=localeconv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f1e5.dir\Debug\\" /Fd"cmTC_6f1e5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_6f1e5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6f1e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6f1e5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6f1e5.dir\Debug\CheckFunctionExists.obj
+  cmTC_6f1e5.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_6f1e5.exe
+  cmTC_6f1e5.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_6f1e5.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6f1e5.dir\Debug\cmTC_6f1e5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6f1e5.dir\Debug\cmTC_6f1e5.tlog\cmTC_6f1e5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_6f1e5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if the function setlocale exists passed with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_44c4f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:29。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_44c4f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_44c4f.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_44c4f.dir\Debug\cmTC_44c4f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_44c4f.dir\Debug\cmTC_44c4f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setlocale /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44c4f.dir\Debug\\" /Fd"cmTC_44c4f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setlocale /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44c4f.dir\Debug\\" /Fd"cmTC_44c4f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_44c4f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_44c4f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_44c4f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_44c4f.dir\Debug\CheckFunctionExists.obj
+  cmTC_44c4f.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_44c4f.exe
+  cmTC_44c4f.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_44c4f.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_44c4f.dir\Debug\cmTC_44c4f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_44c4f.dir\Debug\cmTC_44c4f.tlog\cmTC_44c4f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_44c4f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.84
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f594d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:30。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f594d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f594d.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f594d.dir\Debug\cmTC_f594d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f594d.dir\Debug\cmTC_f594d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_INLINE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f594d.dir\Debug\\" /Fd"cmTC_f594d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_INLINE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f594d.dir\Debug\\" /Fd"cmTC_f594d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_f594d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_f594d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_f594d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f594d.dir\Debug\src.obj
+  cmTC_f594d.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_f594d.exe
+  cmTC_f594d.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_f594d.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f594d.dir\Debug\cmTC_f594d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f594d.dir\Debug\cmTC_f594d.tlog\cmTC_f594d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_f594d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Performing C SOURCE FILE Test HAVE___INLINE succeeded with the following output:
+Change Dir: D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c1e53.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/3/12 23:32:31。
+节点 1 上的项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c1e53.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c1e53.dir\Debug\”。
+  正在创建目录“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c1e53.dir\Debug\cmTC_c1e53.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c1e53.dir\Debug\cmTC_c1e53.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE___INLINE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1e53.dir\Debug\\" /Fd"cmTC_c1e53.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24210 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE___INLINE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1e53.dir\Debug\\" /Fd"cmTC_c1e53.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_c1e53.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_c1e53.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_c1e53.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c1e53.dir\Debug\src.obj
+  cmTC_c1e53.vcxproj -> D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\Debug\cmTC_c1e53.exe
+  cmTC_c1e53.vcxproj -> D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/CMakeTmp/Debug/cmTC_c1e53.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c1e53.dir\Debug\cmTC_c1e53.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c1e53.dir\Debug\cmTC_c1e53.tlog\cmTC_c1e53.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\mia-build\mia-obs-src-pc-main\build\CMakeFiles\CMakeTmp\cmTC_c1e53.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+Source file was:
+__inline void func(); void func() { } int main() { func(); return 0; }

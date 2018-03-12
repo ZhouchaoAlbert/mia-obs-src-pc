@@ -1,0 +1,35 @@
+# CMake generation dependency list for this directory.
+D:/mia-build/mia-obs-src-pc-main/CMakeLists.txt
+D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/3.11.0-rc2/CMakeSystem.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeSystemSpecificInitialize.cmake
+D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/3.11.0-rc2/CMakeCCompiler.cmake
+D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/3.11.0-rc2/CMakeCXXCompiler.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/Platform/Windows.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+D:/mia-build/mia-obs-src-pc-main/build/CMakeFiles/3.11.0-rc2/CMakeRCCompiler.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+D:/mia-build/mia-obs-src-pc-main/cmake/Modules/ObsHelpers.cmake
+D:/mia-build/mia-obs-src-pc-main/cmake/Modules/ObsCpack.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CPack.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/CPackComponent.cmake
+C:/Program Files/CMake-x64/share/cmake-3.11/Templates/CPackConfig.cmake.in
+C:/Program Files/CMake-x64/share/cmake-3.11/Templates/CPackConfig.cmake.in
+C:/Program Files/CMake-x64/share/cmake-3.11/Modules/GNUInstallDirs.cmake
+D:/mia-build/mia-obs-src-pc-main/cmake/Modules/FindCXX11.cmake
+D:/mia-build/mia-obs-src-pc-main/cmake/Modules/CopyMSVCBins.cmake
+D:/mia-build/mia-obs-src-pc-main/cmake/ALL_BUILD.vcxproj.user.in

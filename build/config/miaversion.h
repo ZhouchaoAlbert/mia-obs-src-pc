@@ -1,17 +1,17 @@
-#pragma once
+ï»¿#pragma once
 
 
 #pragma execution_character_set("utf-8")
 
-#define MIA_VERSION "1.0.0.3"
-#define MIA_VERNUM 1003
+#define MIA_VERSION   "1.0.0.3"
+#define MIA_VERNUM   "1003"
 
-#define VERSION 1,0,0,3
+#define VERSION   "1,0,0,3"
 #define FILE_VERSION MIA_VERSION
-#define COMPANYNAME "ÉîÛÚÊĞÃ×ÑÇÓ¡ÀÖ¿Æ¼¼ÓĞÏŞ¹«Ë¾\0"
-#define LEGALCOPYRIGHT "°æÈ¨ËùÓĞ£¨c£©2016 Ã×ÑÇÓ¡ÀÖ\0"
-#define LEGALTRADEMARKS "°æÈ¨ËùÓĞ£¨c£©2016 Ã×ÑÇÓ¡ÀÖ\0"
+#define COMPANYNAME "æ·±åœ³å¸‚ç±³äºšå°ä¹ç§‘æŠ€æœ‰é™å…¬å¸\0"
+#define LEGALCOPYRIGHT "ç‰ˆæƒæ‰€æœ‰ï¼ˆcï¼‰2016 ç±³äºšå°ä¹\0"
+#define LEGALTRADEMARKS "ç‰ˆæƒæ‰€æœ‰ï¼ˆcï¼‰2016 ç±³äºšå°ä¹\0"
 #define ORIGINALNAME "obs32.exe\0"
-#define PRODUCTNAME "Ã×ÑÇ¹«¿ª¿ÎPCÖ±²¥¿Í»§¶Ë\0"
+#define PRODUCTNAME "ç±³äºšå…¬å¼€è¯¾PCç›´æ’­å®¢æˆ·ç«¯\0"
 #define FILE_DESCRIPTION "mia\0"
 

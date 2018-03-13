@@ -3,10 +3,10 @@
 
 #pragma execution_character_set("utf-8")
 
-#define MIA_VERSION   "1.0.0.6"
-#define MIA_VERNUM   "1006"
+#define MIA_VERSION   "1.0.1.0"
+#define MIA_VERNUM   "1010"
 
-#define VERSION   "1,0,0,6"
+#define VERSION   "1,0,1,0"
 #define FILE_VERSION MIA_VERSION
 #define COMPANYNAME "深圳市米亚印乐科技有限公司\0"
 #define LEGALCOPYRIGHT "版权所有（c）2016 米亚印乐\0"

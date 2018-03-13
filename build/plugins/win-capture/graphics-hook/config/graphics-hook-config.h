@@ -12,4 +12,4 @@
 #define FALSE 0
 #endif
 
-#define COMPILE_D3D12_HOOK FALSE
+#define COMPILE_D3D12_HOOK OFF

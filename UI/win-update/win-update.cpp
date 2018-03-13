@@ -21,6 +21,7 @@
 #include <QFile>
 #include <QCryptographicHash>
 #include <platform.hpp>
+#include "miaversion.h"
 
 using namespace std;
 
@@ -292,7 +293,7 @@ void AutoUpdateThread::run()
         {
             if (manualUpdate)
             {
-                ///xzl tbd ÌáÊ¾: ÄãÒÑ¾­ÊÇ×îĞÂ°æ±¾!
+                ///xzl tbd æç¤º: ä½ å·²ç»æ˜¯æœ€æ–°ç‰ˆæœ¬!
                 emit showUpdateTips(Str("Base.Course.Update.TipsTitle"), Str("Base.Course.Update.TipsContentUpdated"), Str("Base.Course.Update.TipsConfirm"));
                 //QMessageBox::information(nullptr, Str("Base.Course.Update.TipsTitle"), Str("Base.Course.Update.TipsContentUpdated"), Str("Base.Course.Update.TipsConfirm"));
             }
@@ -303,7 +304,7 @@ void AutoUpdateThread::run()
         {
             if (manualUpdate)
             {
-                ///xzl tbd ÌáÊ¾: ÕıÔÚÉı¼¶£¬ÇëÉÔºò
+                ///xzl tbd æç¤º: æ­£åœ¨å‡çº§ï¼Œè¯·ç¨å€™
                 emit showUpdateTips(Str("Base.Course.Update.TipsTitle"), Str("Base.Course.Update.TipsContentUpdating"), Str("Base.Course.Update.TipsConfirm"));
                 //QMessageBox::information(nullptr, Str("Base.Course.Update.TipsTitle"), Str("Base.Course.Update.TipsContentUpdating"), Str("Base.Course.Update.TipsConfirm"));
             }

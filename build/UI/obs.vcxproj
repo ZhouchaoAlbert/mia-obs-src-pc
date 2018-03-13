@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\mia-build\mia-obs-src-pc-main\build\UI;D:\mia-build\mia-obs-src-pc-main\UI;D:\mia-build\mia-obs-src-pc-main\build\UI\obs_autogen\include_Debug;D:\mia-build\mia-obs-src-pc-main\dependencies2015\win32\include;D:\mia-build\mia-obs-src-pc-main\UI\obs-frontend-api;D:\mia-build\mia-obs-src-pc-main\libobs;D:\mia-build\mia-obs-src-pc-main\deps\libff;D:\mia-build\mia-obs-src-pc-main\deps\blake2\src;D:\mia-build\mia-obs-src-pc-main\build\config;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;D:\mia-build\mia-obs-src-pc-main\deps\jansson\src;D:\mia-build\mia-obs-src-pc-main\build\deps\jansson\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\mia-build\mia-obs-src-pc-main\build\UI;D:\mia-build\mia-obs-src-pc-main\UI;D:\mia-build\mia-obs-src-pc-main\build\UI\obs_autogen\include_Debug;D:\mia-build\mia-obs-src-pc-main\dependencies2015\win32\include;D:\mia-build\mia-obs-src-pc-main\UI\obs-frontend-api;D:\mia-build\mia-obs-src-pc-main\libobs;D:\mia-build\mia-obs-src-pc-main\deps\libff;D:\mia-build\mia-obs-src-pc-main\deps\blake2\src;D:\mia-build\mia-obs-src-pc-main\build\config;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;D:\mia-build\mia-obs-src-pc-main\deps\jansson\src;D:\mia-build\mia-obs-src-pc-main\build\deps\jansson\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -128,7 +128,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message>			</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake-x64\bin\cmake.exe" -E copy D:/mia-build/mia-obs-src-pc-main/build/UI/Debug/obs32.exe D:/mia-build/mia-obs-src-pc-main/build/rundir/Debug/bin/32bit/obs32.exe
 if %errorlevel% neq 0 goto :cmEnd
@@ -167,7 +168,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Widgetsd.lib;obs-frontend-api\Debug\obs-frontend-api.lib;..\..\dependencies2015\win32\bin\avcodec.lib;..\..\dependencies2015\win32\bin\avutil.lib;..\..\dependencies2015\win32\bin\avformat.lib;..\..\dependencies2015\win32\bin\libcurl.lib;crypt32.lib;..\deps\blake2\Debug\blake2.lib;..\deps\jansson\lib\Debug\jansson_d.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Guid.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Cored.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\qtmaind.lib;..\libobs\Debug\obs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Widgetsd.lib;obs-frontend-api\Debug\obs-frontend-api.lib;..\..\dependencies2015\win32\bin\avcodec.lib;..\..\dependencies2015\win32\bin\avutil.lib;..\..\dependencies2015\win32\bin\avformat.lib;..\..\dependencies2015\win32\bin\libcurl.lib;crypt32.lib;..\deps\blake2\Debug\blake2.lib;..\deps\jansson\lib\Debug\jansson_d.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Guid.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Cored.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\qtmaind.lib;..\libobs\Debug\obs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Networkd.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5WebSocketsd.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5WebChanneld.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5WebEngineWidgetsd.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -183,7 +184,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\mia-build\mia-obs-src-pc-main\build\UI;D:\mia-build\mia-obs-src-pc-main\UI;D:\mia-build\mia-obs-src-pc-main\build\UI\obs_autogen\include_Release;D:\mia-build\mia-obs-src-pc-main\dependencies2015\win32\include;D:\mia-build\mia-obs-src-pc-main\UI\obs-frontend-api;D:\mia-build\mia-obs-src-pc-main\libobs;D:\mia-build\mia-obs-src-pc-main\deps\libff;D:\mia-build\mia-obs-src-pc-main\deps\blake2\src;D:\mia-build\mia-obs-src-pc-main\build\config;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;D:\mia-build\mia-obs-src-pc-main\deps\jansson\src;D:\mia-build\mia-obs-src-pc-main\build\deps\jansson\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\mia-build\mia-obs-src-pc-main\build\UI;D:\mia-build\mia-obs-src-pc-main\UI;D:\mia-build\mia-obs-src-pc-main\build\UI\obs_autogen\include_Release;D:\mia-build\mia-obs-src-pc-main\dependencies2015\win32\include;D:\mia-build\mia-obs-src-pc-main\UI\obs-frontend-api;D:\mia-build\mia-obs-src-pc-main\libobs;D:\mia-build\mia-obs-src-pc-main\deps\libff;D:\mia-build\mia-obs-src-pc-main\deps\blake2\src;D:\mia-build\mia-obs-src-pc-main\build\config;C:\Qt\Qt5.8.0\5.8\msvc2015\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtWidgets;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtGui;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtANGLE;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtCore;C:\Qt\Qt5.8.0\5.8\msvc2015\.\mkspecs\win32-msvc2015;D:\mia-build\mia-obs-src-pc-main\deps\jansson\src;D:\mia-build\mia-obs-src-pc-main\build\deps\jansson\include;C:\Qt\Qt5.8.0\5.8\msvc2015\include\QtNetwork;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4127;4201</DisableSpecificWarnings>
@@ -228,7 +229,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message>			</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake-x64\bin\cmake.exe" -E copy D:/mia-build/mia-obs-src-pc-main/build/UI/Release/obs32.exe D:/mia-build/mia-obs-src-pc-main/build/rundir/Release/bin/32bit/obs32.exe
 if %errorlevel% neq 0 goto :cmEnd
@@ -267,7 +269,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Widgets.lib;obs-frontend-api\Release\obs-frontend-api.lib;..\..\dependencies2015\win32\bin\avcodec.lib;..\..\dependencies2015\win32\bin\avutil.lib;..\..\dependencies2015\win32\bin\avformat.lib;..\..\dependencies2015\win32\bin\libcurl.lib;crypt32.lib;..\deps\blake2\Release\blake2.lib;..\deps\jansson\lib\Release\jansson.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Gui.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Core.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\qtmain.lib;..\libobs\Release\obs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Widgets.lib;obs-frontend-api\Release\obs-frontend-api.lib;..\..\dependencies2015\win32\bin\avcodec.lib;..\..\dependencies2015\win32\bin\avutil.lib;..\..\dependencies2015\win32\bin\avformat.lib;..\..\dependencies2015\win32\bin\libcurl.lib;crypt32.lib;..\deps\blake2\Release\blake2.lib;..\deps\jansson\lib\Release\jansson.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Gui.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Core.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\qtmain.lib;..\libobs\Release\obs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5Network.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5WebSockets.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5WebChannel.lib;C:\Qt\Qt5.8.0\5.8\msvc2015\lib\Qt5WebEngineWidgets.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -328,7 +330,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message>			</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake-x64\bin\cmake.exe" -E copy D:/mia-build/mia-obs-src-pc-main/build/UI/MinSizeRel/obs32.exe D:/mia-build/mia-obs-src-pc-main/build/rundir/MinSizeRel/bin/32bit/obs32.exe
 if %errorlevel% neq 0 goto :cmEnd
@@ -427,7 +430,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message>			</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake-x64\bin\cmake.exe" -E copy D:/mia-build/mia-obs-src-pc-main/build/UI/RelWithDebInfo/obs32.exe D:/mia-build/mia-obs-src-pc-main/build/rundir/RelWithDebInfo/bin/32bit/obs32.exe
 if %errorlevel% neq 0 goto :cmEnd
@@ -1489,6 +1493,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\UI\miapixmap.cpp" />
     <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\platform-windows.cpp" />
     <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\update-window.cpp" />
     <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\win-update.cpp" />
@@ -1566,6 +1571,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\QMyCustLable.cpp" />
     <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\miamainwindow2.cpp" />
     <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\UI\qt-wrappers.cpp" />
+    <ClInclude Include="..\..\UI\miapixmap.h" />
     <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\update-window.hpp" />
     <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\win-update.hpp" />
     <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\win-update-helpers.hpp" />

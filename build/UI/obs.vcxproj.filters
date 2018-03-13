@@ -211,6 +211,9 @@
     <ClCompile Include="D:\mia-build\mia-obs-src-pc-main\build\UI\obs_autogen\mocs_compilation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\UI\miapixmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\UI\win-update\update-window.hpp">
@@ -457,6 +460,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\mia-build\mia-obs-src-pc-main\build\UI\ui_OBSRemux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UI\miapixmap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

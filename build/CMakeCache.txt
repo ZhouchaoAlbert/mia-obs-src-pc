@@ -238,14 +238,14 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
 
 //Compile D3D12 hook support (required windows 10 SDK)
-COMPILE_D3D12_HOOK:BOOL=FALSE
+COMPILE_D3D12_HOOK:BOOL=OFF
 
 COMPILE_LUA:BOOL=FALSE
 
 COMPILE_PYTHON:BOOL=FALSE
 
 //Dependencies have been copied, set to false to copy again
-COPIED_DEPENDENCIES:BOOL=TRUE
+COPIED_DEPENDENCIES:BOOL=ON
 
 //Automaticaly try copying all dependencies
 COPY_DEPENDENCIES:BOOL=ON
@@ -278,10 +278,10 @@ ENABLE_SCRIPTING:BOOL=ON
 ENABLE_UI:BOOL=ON
 
 //Enables the now deprecated win-mf plugin
-ENABLE_WINMF:BOOL=FALSE
+ENABLE_WINMF:BOOL=OFF
 
 //Enable the windows updater
-ENABLE_WIN_UPDATER:BOOL=FALSE
+ENABLE_WIN_UPDATER:BOOL=OFF
 
 //Path to a file.
 FFMPEG_avcodec_INCLUDE_DIR:PATH=D:/mia-build/mia-obs-src-pc-main/dependencies2015/win32/include
@@ -807,6 +807,15 @@ win-decklink_LIB_DEPENDS:STATIC=general;libobs;
 
 //Value Computed by CMake
 win-decklink_SOURCE_DIR:STATIC=D:/mia-build/mia-obs-src-pc-main/plugins/decklink/win
+
+//Value Computed by CMake
+win-dshow_BINARY_DIR:STATIC=D:/mia-build/mia-obs-src-pc-main/build/plugins/win-dshow
+
+//Dependencies for the target
+win-dshow_LIB_DEPENDS:STATIC=general;libobs;general;strmiids;general;ksuser;general;wmcodecdspuuid;general;D:/mia-build/mia-obs-src-pc-main/dependencies2015/win32/bin/avcodec.lib;general;D:/mia-build/mia-obs-src-pc-main/dependencies2015/win32/bin/avutil.lib;
+
+//Value Computed by CMake
+win-dshow_SOURCE_DIR:STATIC=D:/mia-build/mia-obs-src-pc-main/plugins/win-dshow
 
 //Value Computed by CMake
 win-ivcam_BINARY_DIR:STATIC=D:/mia-build/mia-obs-src-pc-main/build/plugins/win-ivcam

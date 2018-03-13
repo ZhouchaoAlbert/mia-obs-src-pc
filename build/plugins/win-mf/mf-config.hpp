@@ -14,4 +14,4 @@
 #define OFF 0
 #endif
 
-#define ENABLE_WINMF FALSE
+#define ENABLE_WINMF OFF

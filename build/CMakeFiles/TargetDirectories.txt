@@ -77,8 +77,10 @@ D:/mia-build/mia-obs-src-pc-main/build/plugins/win-wasapi/CMakeFiles/PACKAGE.dir
 D:/mia-build/mia-obs-src-pc-main/build/plugins/win-wasapi/CMakeFiles/win-wasapi.dir
 D:/mia-build/mia-obs-src-pc-main/build/plugins/win-wasapi/CMakeFiles/INSTALL.dir
 D:/mia-build/mia-obs-src-pc-main/build/plugins/win-wasapi/CMakeFiles/ALL_BUILD.dir
+D:/mia-build/mia-obs-src-pc-main/build/plugins/win-dshow/CMakeFiles/win-dshow.dir
 D:/mia-build/mia-obs-src-pc-main/build/plugins/win-dshow/CMakeFiles/PACKAGE.dir
 D:/mia-build/mia-obs-src-pc-main/build/plugins/win-dshow/CMakeFiles/INSTALL.dir
+D:/mia-build/mia-obs-src-pc-main/build/plugins/win-dshow/CMakeFiles/ALL_BUILD.dir
 D:/mia-build/mia-obs-src-pc-main/build/plugins/win-capture/CMakeFiles/win-capture.dir
 D:/mia-build/mia-obs-src-pc-main/build/plugins/win-capture/CMakeFiles/PACKAGE.dir
 D:/mia-build/mia-obs-src-pc-main/build/plugins/win-capture/CMakeFiles/INSTALL.dir
